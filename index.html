@@ -1,125 +1,135 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MODEL</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MODEL</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header class="header">
-        <img src="./images/LOGO.jpg" alt="logo" class="logo"></img>
-        <nav class="nav">
-            <ul class="nav__menu">
-                <li class="nav__text">
-                    Студия
-                </li>
-                <li class="nav__text">
-                    Портфолио
-                </li>
-                <li class="nav__text">
-                    Контакты
-                </li>
-            </ul>
-        </nav>
-        <div class="block__contact">
-            <a href="tel:+38 096 111 11 11" class="contact">+38&#160;096&#160;111&#160;11&#160;11</a>
-            <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a>
-        </div>
+  <header class="header">
+    <nav class="nav">
+    <a href="#"><img src="./images/LOGO.jpg" alt="logo" class="logo"></img></a>
+      <ul class="nav__menu">
+        <li class="nav__text">
+          <a href="#">Студия</a>
+        </li>
+        <li class="nav__text">
+          <a href="#">Портфолио</a>
+        </li>
+        <li class="nav__text">
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+    <ul>
+      <li>
+        <a href="tel:+38 096 111 11 11" class="contact">+38&#160;096&#160;111&#160;11&#160;11</a>
+      </li>
+      <li>
+        <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a>
+      </li>
+    </ul>
     </header>
     <main class="main">
-        <h1 class="title__one">
-            Эффективные решения для вашего бизнеса
-        </h1>
-        <div class="button__center">
-            <button name="button" class="main__button">
-                Заказать услугу
-            </button>
-        </div>
+      <h1 class="title__one">
+        Эффективные решения для вашего бизнеса
+      </h1>
+      <button name="button" type="button" class="main__button">
+        Заказать услугу
+      </button>
     </main>
     <section>
-        <div>
-            <article>
-                <ul class="workfeatures">
-                    <li class="keyfeatures">
-                        Внимание к деталям
-                        <p class="paragraph"> 
-                            Идейные соображения, а также начало повседневной работы по формированию позиции.
-                        </p>
-                    </li>
-                    <li class="keyfeatures">
-                        Пунктуальность
-                        <p class="paragraph"> 
-                            Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-                        </p>
-                    </li>
-                    <li class="keyfeatures">
-                        Планирование
-                        <p class="paragraph"> 
-                            Равным образом консультация с широким активом в значительной степени обуславливает.
-                        </p>
-                    </li>
-                    <li class="keyfeatures">
-                        Современные технологии
-                        <p class="paragraph"> 
-                            Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-                        </p>
-                    </li>
-                </ul>   
-                <h2 class="title__two">Чем мы занимаемся</h2>
-                <div class="img__buttom">
-                    <img src="./images/img1.jpg" alt="doc on desk" class="imgstyle"></img>
-                    <img src="./images/img2.png" alt="laptop" class="imgstyle"></img>
-                    <img src="./images/img3.png" alt="tablet" class="imgstyle"></img>
-                </div>
-            </article>
-        </div>
+      <ul class="workfeatures">
+        <li class="keyfeatures">
+          Внимание к деталям
+          <p class="paragraph"> 
+            Идейные соображения, а также начало повседневной работы по формированию позиции.
+          </p>
+        </li>
+        <li class="keyfeatures">
+          Пунктуальность
+          <p class="paragraph"> 
+            Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+          </p>
+        </li>
+        <li class="keyfeatures">
+          Планирование
+          <p class="paragraph"> 
+            Равным образом консультация с широким активом в значительной степени обуславливает.
+          </p>
+        </li>
+        <li class="keyfeatures">
+          Современные технологии
+          <p class="paragraph"> 
+            Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+          </p>
+        </li>
+      </ul>
     </section>
-    <div class="team__block">
-        <h2 class="title__team">
-            Наша команда
-        </h2>
-        <div class="our__team">
+    <section class="our__skills"> 
+      <h2 class="title__two">Чем мы занимаемся</h2>
+      <ul>
+        <li>
+          <img src="./images/img1.jpg" alt="doc on desk" class="imgstyle"></img>
+        </li>
+        <li>
+          <img src="./images/img2.png" alt="laptop" class="imgstyle"></img>
+        </li>
+        <li>
+          <img src="./images/img3.png" alt="tablet" class="imgstyle"></img>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2 class="title__team">
+        Наша команда
+      </h2>
+      <ul class="people__info">
+        <li class="person__name">
           <img src="./images/igor.jpg" alt="man person" class="team__foto"></a>
+          <h3>Игорь Демьяненко</h3>
+          <p class="person__jobe">
+            Product Designer
+          </p>
+        </li>
+        <li class="person__name">
           <img src="./images/olga.jpg" alt="woman person" class="team__foto"></a>
+          <h3>Ольга Репина</h3>
+          <p class="person__jobe">
+            Frontend Developer
+          </p>
+        </li>
+        <li class="person__name">
           <img src="./images/kolya.jpg" alt="man person" class="team__foto"></a>
+          <h3>Николай Тарасов</h3>
+          <p class="person__jobe">
+            Marketing
+          </p>
+        </li>
+        <li class="person__name">   
           <img src="./images/miha.jpg" alt="man person" class="team__foto"></a>
-        </div>
-        <ul class="people__info">
-            <li class="person__name">
-                Игорь Демьяненко
-                <p class="person__jobe">
-                    Product Designer
-                </p>
-            </li>
-            <li class="person__name">
-                Ольга Репина
-                <p class="person__jobe">
-                    Frontend Developer
-                </p>
-            </li>
-            <li class="person__name">
-                Николай Тарасов
-                <p class="person__jobe">
-                    Marketing
-                </p>
-            </li>
-            <li class="person__name">
-                Михаил Ермаков
-                <p class="person__jobe">
-                    UI Designer
-                </p>
-            </li>
-        </ul>
-    </div>
+          <h3>Михаил Ермаков</h3>
+          <p class="person__jobe">
+            UI Designer
+          </p>
+        </li>
+      </ul>
+    </section>
     <footer>
-        <div>
-        <a href="#"><img src="./images/LOGO.jpg" alt="logo"></a>
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <a href="mailto: info@example.com">info@example.com</a>
-        <a href="tel:+38&#160;099&#160;111&#160;11&#160;11">+38 099 111 11 11</a>
-        </div>
+      <a href="#"><img src="./images/LOGO.jpg" alt="logo"></a>
+      <ul>
+        <li>
+          <a href="https://www.google.com/maps/place/бульвар Лесі Українки, 26, Київ, 02000">г. Киев, пр-т Леси Украинки, 26</a>
+        </li>
+        <li>
+          <a href="mailto: info@example.com">info@example.com</a>
+        </li>
+        <li>
+          <a href="tel:+38&#160;099&#160;111&#160;11&#160;11">+38 099 111 11 11</a>
+        </li>
+      </ul>
     </footer>
 </body>
 </html>
